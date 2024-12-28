@@ -17,14 +17,15 @@ Power BI: For visualization and reporting of the analyzed data.
 The dataset used in this analysis contains the following data:
 Athlete Information: Name, country, sport, event, gender, age, etc.
 Medal Information: Number of gold, silver, and bronze medals by athlete and country.
-Dataset Source
-The data is sourced from raw CSV files hosted on a GitHub repository and processed through the pipeline. It includes the following:
 
+
+## Dataset Source
+The data is sourced from raw CSV files hosted on a GitHub repository and processed through the pipeline. It includes the following:
 Athlete Data: Information about each athlete, including their nationality, events, and performance.
 Medal Data: A record of the medals won by athletes, categorized by gold, silver, and bronze.
-Project Objectives
-The main objectives of this project are to:
 
+## Project Objectives
+The main objectives of this project are to:
 Extract data from a GitHub raw URL using Azure Data Factory.
 Load and store data in Azure Data Lake for scalable and secure storage.
 Transform and analyze the data using Azure Databricks with PySpark.
