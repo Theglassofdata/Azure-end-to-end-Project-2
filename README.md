@@ -1,6 +1,6 @@
-##Tokyo Olympic Data Analysis - End-to-End Pipeline
+## Tokyo Olympic Data Analysis - End-to-End Pipeline
 
-##Project Overview
+## Project Overview
 This project demonstrates an end-to-end data engineering pipeline using various Azure services to analyze data from the Tokyo 2020 Olympics. The pipeline extracts data from a GitHub raw URL, ingests and processes it through Azure Data Factory, Azure Data Lake, Azure Databricks, and Azure Synapse Analytics, and finally visualizes the results using Power BI.
 
 The analysis covers various aspects of the Olympic Games, such as athlete performance, medal distribution, and country-wise overall medals.
