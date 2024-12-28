@@ -5,16 +5,16 @@ This project demonstrates an end-to-end data engineering pipeline using various 
 
 The analysis covers various aspects of the Olympic Games, such as athlete performance, medal distribution, and country-wise overall medals.
 
-Technologies Used
+## Technologies Used
 GitHub: Source for raw Olympic data in CSV format.
 Azure Data Factory: Used for data ingestion and ETL processes to move data from GitHub to Azure Data Lake.
 Azure Data Lake: For data storage in a scalable and secure way.
 Azure Databricks: For data transformation using Apache Spark and PySpark.
 Azure Synapse Analytics: For big data processing, SQL-based querying, and aggregations.
 Power BI: For visualization and reporting of the analyzed data.
-Dataset
-The dataset used in this analysis contains the following data:
 
+## Dataset
+The dataset used in this analysis contains the following data:
 Athlete Information: Name, country, sport, event, gender, age, etc.
 Medal Information: Number of gold, silver, and bronze medals by athlete and country.
 Dataset Source
@@ -30,7 +30,8 @@ Load and store data in Azure Data Lake for scalable and secure storage.
 Transform and analyze the data using Azure Databricks with PySpark.
 Store aggregated data in Azure Synapse Analytics for big data processing and SQL-based querying.
 Visualize insights using Power BI, presenting trends like medal counts, athlete demographics, and top-performing countries.
-Key Features
+
+## Key Features
 Data Extraction: Ingest raw CSV files from a GitHub repository URL into Azure Data Lake using Azure Data Factory.
 Data Transformation: Use Azure Databricks to clean, aggregate, and transform the data.
 Data Aggregation: Calculate total medals by country, and generate other insights using Azure Synapse Analytics.
